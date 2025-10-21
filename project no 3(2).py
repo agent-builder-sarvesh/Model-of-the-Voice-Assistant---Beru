@@ -5,7 +5,6 @@ import pyttsx3
 recogniner = sr .Recognizer()
 engine = pyttsx3.init()
 import musicLibrary 
-# nfkjnkjs
 def speak(text):
     engine.say(text)
     engine.runAndWait()
